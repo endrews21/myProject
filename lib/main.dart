@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-
 import 'home_page.dart';
 
 
 void main() {
-  runApp(MyPage());
+  runApp(const MyPage());
 }
 
 class MyPage extends StatelessWidget {
@@ -16,7 +14,7 @@ class MyPage extends StatelessWidget {
      return MaterialApp(
        debugShowCheckedModeBanner: false,
        theme: ThemeData.dark(),
-       home: HomePage(),
+       home: const HomePage(),
      );
    }
 
